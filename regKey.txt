@@ -1,0 +1,7 @@
+Per attivare i colori del terminale su Windows10 bisogna:
+
+* Aprire CMD come amministratore
+
+* Copiare e incollare il codice sottostante su CMD e premere INVIO
+
+REG ADD HKCU\CONSOLE /f /v VirtualTerminalLevel /t REG_DWORD /d 1
